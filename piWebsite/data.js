@@ -455,7 +455,7 @@
     return {
       systemInstruction: { parts: [{ text: system }] },
       contents,
-      generationConfig: { temperature: 0, maxOutputTokens: 1500 },
+      generationConfig: { maxOutputTokens: 1500 },
     };
   }
 
