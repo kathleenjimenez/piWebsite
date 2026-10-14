@@ -63,9 +63,7 @@ module.exports = async function handler(req, res) {
     const requestBody =
       D.buildGeminiRequest(question, history, facts);
 
-    const model =
-      process.env.GEMINI_MODEL ||
-      "gemini-2.5-flash";
+   const model = process.env.GEMINI_MODEL || "YOUR_VALID_MODEL_ID";
 
     const apiBase = (
       process.env.GEMINI_API_BASE ||
