@@ -1,0 +1,8 @@
+{
+  "name": "rizal-journey",
+  "version": "2.0.0",
+  "description": "Rizal's Journey to Heroism: interactive storybook with review tools and a Rizal-only, fact-grounded assistant.",
+  "private": true,
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
